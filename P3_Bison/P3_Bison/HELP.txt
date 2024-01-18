@@ -1,0 +1,72 @@
+*************
+INTRODUCCIÓN
+*************
+Calculadora que permite la declaración y asignación de variables ademas de aplicación de ciertas funciones
+
+
+***************
+PALABRAS CLAVE
+***************
+"exit" 				- Termina la ejecución del programa.
+"workspace"			- Muestra las variables y sus valores (espacio de trabajo).
+"help"				- Muestra esta ayuda.
+"load("archivo")"	- Siendo "archivo" la ruta a un archivo, lee un archivo 
+					  para ejecutar su contenido. Ej: load("operaciones.txt")
+"echo on/off"		- activa o desactiva que se impriman los resultados de operaciones.
+";" 				- ; al final de una operación o comparación hace que no se 
+					  impriman los resultados de las operaciones para esa linea
+
+
+************
+OPERACIONES
+************
+Suma			+
+Resta			-
+Multiplicación	*
+División		/
+Módulo			%
+Potencia		^	
+
+
+Asignación			=
+Suma y asignación	+=
+Resta y asignación	-=
+Mult. y asignación	*=
+Div. y asignación	/=
+
+
+**************
+COMPARACIONES
+**************
+Mayor que   >
+Menor que   <
+
+
+**********
+VARIABLES
+**********
+
+Aceptan nombres con caracteres alfanúmericos y '_' pero sin empezar por número
+
+***********
+CONSTANTES
+***********
+	- pi = 3.14159265359
+	- e = 2.71828182846
+
+
+**********
+FUNCIONES
+**********
+La calculadora tiene las siguientes funciones:
+
+	- sin() 	- Calcula el seno en radianes.
+	- cos() 	- Calcula el coseno en radianes.
+	- tan() 	- Calcula la tangente en radianes.
+	- arcsin()	- Calcula el arcoseno en radianes.
+	- arccos()	- Calcula el arcocoseno en radianes.
+	- arctan()	- Calcula la arcotangente en radianes
+	- log()	    - Logaritmo en base 10.
+	- ln()		- Logaritmo neperiano.
+	- exp()		- Eleva "e" al exponente que se pasa como argumento.
+	- sqrt()	- raíz cuadrada.
